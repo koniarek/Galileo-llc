@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="3680" height="2400" id="Flag of Turkey" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <rect width="80" height="2400" id="white heading on hoist" style="fill:white" x="0" y="0" />
+  <rect width="3600" height="2400" id="red background" style="fill:rgb(227, 10, 23)" x="80" y="0" />
+  <path style="fill:white" id="crescent" d="M 1787,879.140217540434 a 480,480 0 1,0 0,641.719564919132 a 600,600 0 1,1 0,-641.719564919132 z" />
+  <polygon style="fill:white" id="star" transform="translate(2050,1200) scale(300) rotate(-90)"
+       points="0,-1 0.224513988289793,-0.309016994374947 0.951056516295153,-0.309016994374947 0.363271264002680,0.118033988749895 
+               0.587785252292473,0.809016994374947 0,0.381966011250105 -0.587785252292473,0.809016994374947
+               -0.363271264002680,0.118033988749895 -0.951056516295154,-0.309016994374947 -0.224513988289793,-0.309016994374947" />
+</svg>
