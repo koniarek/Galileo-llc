@@ -177,6 +177,7 @@
       this.$indicators = this.$element.find('.carousel-indicators')
       this.options     = options
       this.paused      = null
+      this.autoplay    = true
       this.sliding     = null
       this.interval    = null
       this.$active     = null
@@ -400,7 +401,7 @@
   $('.carousel').carousel({
     interval: 0
   });
-  
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
