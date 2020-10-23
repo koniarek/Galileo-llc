@@ -169,6 +169,33 @@
   +function ($) {
     'use strict';
 
+
+
+    $(document).ready(() => {
+      const width = $(document).width(); // get the width of the window
+      const breakpoints = [576, 768, 992, 1200]; // define breakpoints (using standard bootstrap 4 breakpoints)
+      const image = {};
+      image.prefix =
+          "https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo_fill,g_center,w_"; // location of your images
+      image.suffix = "/.jpg"; // optional (i.e. .png, .gif, ...)
+      $(() => {
+        let i;
+        for (i = 0; i < breakpoints.length; i += 1) {
+          if (width <= breakpoints[i]) {
+            image.breakpoint = breakpoints[i]; // return the most appropriate image width
+            break;
+          } else {
+            image.breakpoint = 1200; // the maximum image width
+          }
+        }
+        // add the image to the body elements background with jQuery:
+        $("body").css(
+            "background-image",
+            `url("${image.prefix}${image.breakpoint}${image.suffix}"`
+        );
+      });
+    });
+
     // CAROUSEL CLASS DEFINITION
     // =========================
 
