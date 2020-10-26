@@ -399,8 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 img{
   min-width: 100%;
-  margin-bottom: 20px;
-  margint-top: 20px;
+  margin: auto;
 }
 .sr-only{
   position: absolute;
