@@ -350,6 +350,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 10px;
   position: absolute;
   right: 15px;
+  max-width: 480px;
+
+
 }
 
 .mobile-nav .active.drop-down > a:after {
@@ -358,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down > a {
   padding-right: 35px;
+  max-width: 480px;
 }
 
 .mobile-nav .drop-down ul {
@@ -393,6 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
+  max-width: 480px;
 }
 /*--------------------------------------------------------------
 # Carousel Section
