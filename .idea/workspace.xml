@@ -10,9 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d08fff-82ca-4beb-a2b2-de463f2efbe3" name="Default Changelist" comment="update13">
+    <list default="true" id="08d08fff-82ca-4beb-a2b2-de463f2efbe3" name="Default Changelist" comment="update14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-details2.html" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-details2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-details3.html" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-details3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-details4.html" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-details4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventures.html" beforeDir="false" afterPath="$PROJECT_DIR$/adventures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,7 +105,7 @@
       <workItem from="1603011139779" duration="57090000" />
       <workItem from="1603511348782" duration="4845000" />
       <workItem from="1603552632147" duration="235000" />
-      <workItem from="1603589881340" duration="12469000" />
+      <workItem from="1603589881340" duration="17416000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1602646116148</created>
@@ -197,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603676834618</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update14">
+      <created>1603678016042</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603678016042</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +245,8 @@
     <MESSAGE value="update11" />
     <MESSAGE value="update12" />
     <MESSAGE value="update13" />
-    <option name="LAST_COMMIT_MESSAGE" value="update13" />
+    <MESSAGE value="update14" />
+    <option name="LAST_COMMIT_MESSAGE" value="update14" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603495224376">
@@ -315,11 +331,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1603508397525" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1603676839148">
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1603678018587">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603496504290" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1603676839148" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1603678018587" />
     <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1602646446496" />
     <state x="421" y="24" width="673" height="821" key="find.popup" timestamp="1603649949392">
       <screen x="0" y="23" width="1440" height="822" />
