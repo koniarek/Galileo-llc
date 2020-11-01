@@ -37,149 +37,200 @@
 </head>
 
 <body>
+
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
-     <a href="index.html" class="logo mr-auto"><img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413359/galileo/logo_vs4021.jpg" alt="" class="img-fluid"></a>
+    <a href="index.html" class="logo mr-auto"><img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413359/galileo/logo_vs4021.jpg" alt="" class="img-fluid"></a>
     <nav class="nav-menu d-none d-lg-block">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="life-in-poland.html">Life in Poland</a></li>
-        <li><a href="adventures.html">Adventure</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li class="active"><a href="who-we-are.html">Who We Are?</a></li>
+        <li class="drop-down"><a href="adventures.html">Adventure</a>
+          <ul>
+            <li><a href="adventure-details.html">Canoeing / Kayaking / Yachting / Rolling !</a></li>
+            <li><a href="adventure-details2.html">Kitesurfing / Windsurfing</a></li>
+            <li><a href="adventure-details4.html">Cetniewo Campsite</a></li>
+            <li class="active"><a href="adventure-details3.html">Volleyball / Basketball</a></li>
+          </ul>
+        </li>
+        <li class="drop-down"><a href="education.html">Education</a>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="online-courses.html">Online Courses</a></li>
+            <li><a href="study-in-poland.html">Study in Poland</a></li>
+          </ul>
+        </li>
+        <li><a href="who-we-are.html">Who We Are?</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav><!-- .nav-menu -->
-    <a href="adventures.html" class="get-started-btn">Join Our Trips</a>
-
-</div>
+  </div>
 </header><!-- End Header -->
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs-1" data-aos="fade-in">
+</div><!-- End Breadcrumbs -->
 
-  <!-- ======= Hero Section ======= -->
-  <main id="main">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider1-min_xad3nd.jpg" alt="" />
-        </div>
-        <div class="item">
-          <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider2-min_bmtogv.jpg" alt="" />
-        </div>
-        <div class="item">
-          <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider3-min_ydajbd.jpg" alt="" />
-        </div>
-        <div class="item">
-          <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider4-min_fkrx6i.jpg" alt="" />
-        </div>
-        <div class="item">
-          <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider5-min_anzcic.jpg" alt="" />
-        </div>
-        <div class="item">
-          <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider6-min_eykfvp.jpg" alt="" />
-        </div>
-      </div>
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+<main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>About Us</h2>
         </div>
-        <div class="page-header">
-        <h3>GALILEO LIFELONG LEARNING CENTER</h3>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 my-auto" data-aos="fade-left" data-aos-delay="100">
+        <div class="col-md-6 my-auto" data-aos="fade-left" data-aos-delay="100">
           <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413364/galileo/galileo_npmngc.svg" class="img-fluid" alt="">
         </div>
-          <div class="row">
-              <p>Galileo Lifelong Learning Centre plays an active role in developing the Erasmus projects’ overall strategy and in designing and implementing education policies.</p>
+        <div class="container-fluid">
+          <p>Galileo Lifelong Learning Centre plays an active role in developing the Erasmus projects’ overall strategy and in designing and implementing education policies.</p>
               <p>GLL Centre is open to many individuals and organisations, although eligibility varies from one action to another and from one country to another.</p>
                <p>However, it provides opportunities almost for everyone in the field of education; teachers, trainers, students, doctors, professors, universities and businesses.</p>
+        </div>
+        <!-- ======= Cource Details Tabs Section ======= -->
+        <section id="about-details-tabs" class="about-details-tabs">
+          <div class="container" data-aos="fade-up">
+            <div class="border">
+            <div class="row">
+              <div class="col-lg-3">
+                <ul class="nav nav-tabs flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                      Values of Galileo Lifelong Learning Center</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-2">People</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-3">Knowledge</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-4">Innovation</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-9 mt-4 mt-lg-0">
+                <div class="tab-content">
+                  <div class="tab-pane active show" id="tab-1">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>Our Values</h3>
+                        <p>GLLC values are People, Knowledge and Innovation. These three elements describe our objectives and manner of operation. Their combination represent what we value most, distinguishing us from the competition.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413365/galileo/download_13_fjvgnk.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tab-2">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>People</h3>
+                        <p>We care about people and the role of work in their lives. We respect people as individuals, trusting them, supporting them, enabling them to achieve their aims in work and in life. We help people develop their careers through planning, work, coaching and training. We recognize everyone's contribution to our success - our staff, our clients and our candidates. We encourage and reward achievement.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603636841/galileo/wro_pjhejn.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane" id="tab-3">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>Knowledge</h3>
+                        <p>We share our knowledge, our expertise and our resources so that everyone understands what is important now and what is happening next in the world of work - and knows how to respond. We actively listen and act upon this information to improve our relationships, solutions and services. Based on our understanding of the world of work, we actively pursue the development and adoption of the best practices worldwide.
+                        </p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413364/galileo/landscapes_svkknl.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tab-4">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>Innovation</h3>
+                        <p>We lead in the world of work. We dare to innovate, to pioneer and to evolve. We never accept the status quo. We constantly challenge the norm to find new and better ways of doing things. We thrive on our entrepreneurial spirit and speed of response - taking risks, knowing that we will not always succeed, but never exposing our clients to risk.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603631680/galileo/safety_r3mjbc.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section><!-- End Cource Details Tabs Section -->
+        <div class="container-fluid">
             <p>The aim of GLL Centre is to contribute to the Europe 2020 strategy for growth, jobs, social equity and inclusion, as well as the aims of ET2020, the EU's strategic framework for education and training.
-              We organise :
-            </p>
+              We organise :</p>
             <ul>
-              <li><i class="icofont-check-circled"></i> Internships </li>
-              <li><i class="icofont-check-circled"></i> Training</li>
-              <li><i class="icofont-check-circled"></i> Encouraging young people to take part in European democracy</li>
+              <li>Internships</li>
+              <li>Training</li>
+              <li>Encouraging young people to take part in European democracy</li>
+              <li>Supporting innovation, cooperation and reform</li>
+              <li>Reducing unemployment, especially among young people</li>
+              <li>Promoting adult learning, especially for new skills and skills required by the labour market.</li>
+              <li>Reducing early school leaving</li>
+              <li>Promoting cooperation and mobility with the EU's partner countries</li>
             </ul>
-             <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369929/galileo/shutterstock_403790431-min_xqyujm.jpg" class="img-fluid" alt="">
-
-              <ul>
-              <li><i class="icofont-check-circled"></i> Supporting innovation, cooperation and reform</li>
-              <li><i class="icofont-check-circled"></i> Reducing unemployment, especially among young people</li>
-              <li><i class="icofont-check-circled"></i> Promoting adult learning, especially for new skills and skills required by the labour market.</li>
-              <li><i class="icofont-check-circled"></i> Reducing early school leaving</li>
-              <li><i class="icofont-check-circled"></i> Promoting cooperation and mobility with the EU's partner countries
-              </li>
-            </ul>
-
-            <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413368/galileo/about_i3g1eh.jpg" class="img-fluid" alt="">
-
-            <p>The Galileo Lifelong Learning Center offers numerous development opportunities for many other groups from around the world who dream of learning outside their home country.
+              <div class="row-cols-md-4 my-auto">
+            <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369929/galileo/shutterstock_403790431-min_xqyujm.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        <div class="container-fluid">
+          <div class="about-tabs">
+          <p>The Galileo Lifelong Learning Center offers numerous development opportunities for many other groups from around the world who dream of learning outside their home country.
               The training system abroad, in addition to increasing career prospects and experience in the field of mobile education, gives opportunities to gain independence, learn about new cultures and improve foreign languages.</p>
             <p>Graduates of vocational schools and universities can count on help in, internship or apprenticeship in the European Union, especially in Poland.
             Employees employed in the education sector have the opportunity to give lectures in foreign institutions, share expertise in their field, participate in research and make new friends.
             </p>
             <ul>
-              <li><i class="icofont-check-circled"></i> Increasing the sustainable lifelong learning education programs
-              </li>
-              <li><i class="icofont-check-circled"></i> Sustainable clean environmental and global warming</li>
-              <li><i class="icofont-check-circled"></i> Sport, recreational and science camps</li>
-              <li><i class="icofont-check-circled"></i> Conferences</li>
-              <li><i class="icofont-check-circled"></i> Stationary and online courses</li>
-              <li><i class="icofont-check-circled"></i> Excursions </li>
-              <li><i class="icofont-check-circled"></i> Finding accommodations </li>
-              <li><i class="icofont-check-circled"></i> Helping during process for start studying in Poland </li>
+              <li>Increasing the sustainable lifelong learning education programs</li>
+              <li>Sustainable clean environmental and global warming</li>
+              <li>Sport, recreational and science camps</li>
+              <li>Conferences</li>
+              <li>Stationary and online courses</li>
+              <li>Excursions</li>
+              <li>Finding accommodations</li>
+              <li>Helping during process for start studying in Poland </li>
             </ul>
-
+        </div>
+              <div class="row-cols-md-4 my-auto">
             <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603369928/galileo/shutterstock_198169034-min_vi4gag.jpg" class="img-fluid" alt="">
-            <h3>Research and innovation with Galileo LLC</h3>
+            </div>
+           <div class="container-fluid my-auto">
+           <h3>Research and innovation with Galileo LLC</h3>
             <p>Find current and upcoming funding opportunities for your research, as well as research partners, Learn about research projects and results, joint research initiatives and EU action to promote innovation.
               Galileo Lifelong Learning Centre  performs research-driven work to achieve lifelong learning for all. It goes beyond formal education systems and reflects on the future of teaching and learning.</p>
+              <div class="row-cols-md-4 my-auto">
             <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413360/galileo/shutterstock_425106391_g2n5r1.jpg" class="img-fluid" alt="">
-            <p>While having a particular focus on emerging trends and issues, Galileo Lifelong learning Centre is always open minded and aims to set a forward-looking and innovative agenda for a changing education landscape.
+            </div>
+             <div class="container-fluid my-auto">
+             <p>While having a particular focus on emerging trends and issues, Galileo Lifelong learning Centre is always open minded and aims to set a forward-looking and innovative agenda for a changing education landscape.
             <br>
               About the:
             </p>
             <ul>
-              <li><i class="icofont-check-circled"></i> Increasing the sustainable lifelong learning education programs
-              </li>
-              <li><i class="icofont-check-circled"></i> Sustainable clean environmental and global warming</li>
-              <li><i class="icofont-check-circled"></i> Sport, recreational and science camps</li>
-              <li><i class="icofont-check-circled"></i> Conferences</li>
-              <li><i class="icofont-check-circled"></i> Stationary and online courses</li>
-              <li><i class="icofont-check-circled"></i> Excursions </li>
-              <li><i class="icofont-check-circled"></i> Finding accommodations </li>
-              <li><i class="icofont-check-circled"></i> Helping during process for start studying in Poland </li>
+              <li>Increasing the sustainable lifelong learning education programs</li>
+              <li>Sustainable clean environmental and global warming</li>
+              <li>Sport, recreational and science camps</li>
+              <li>Conferences</li>
+              <li>Stationary and online courses</li>
+              <li>Excursions </li>
+              <li>Finding accommodations </li>
+              <li>Helping during process for start studying in Poland</li>
             </ul>
             <p>The goal of the researches and innovations are  to produce work that is thoroughly integrated with empirical analysis and innovation awareness, with specific emphasis on accumulating statistical evidence and developing key indicators to solidify its research work based on the topics above.</p>
+           </div>
+             <div class="row-cols-md-4 my-auto">
             <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413360/galileo/shutterstock_1712504941_qrbstg.jpg" class="img-fluid" alt="">
-          </div>
+            </div>
+            </div>
         </div>
+    </div>
     </section><!-- End About Section -->
   </main><!-- End #main -->
 
@@ -189,10 +240,6 @@
   <div class="footer-top">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h3>Galileo</h3>
-          <h4>Lifelong Learning Center</h4>
-        </div>
         <div class="col-lg-4">
           <div class="info">
             <div class="email">
@@ -203,13 +250,6 @@
               <br><i class="icofont-phone"><strong>+48 730 906 494</strong></i>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Join Our Newsletter</h4>
-          <p>If you would like to stay up to date with Galileo services, just sing up for our Newsletter.
-            You would be provided with all information needed.</p>
-          <form action="" method="post"><input type="email" name="email"><input type="submit" value="Subscribe">
-          </form>
         </div>
       </div>
     </div>
